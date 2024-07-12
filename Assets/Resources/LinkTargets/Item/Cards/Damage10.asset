@@ -22,12 +22,11 @@ MonoBehaviour:
         items:
         - linkToItem:
             itemId: Score/Energy
-          amount: 0
-      cardEffects:
-        effects:
-        - type: 2
-          worth: 0
-          health:
-            point: 0
-          damage:
-            point: 10
+          amount: 1
+      effects:
+      - type: 2
+        worth: 0
+        health:
+          point: 0
+        damage:
+          point: 10

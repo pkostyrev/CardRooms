@@ -10,9 +10,9 @@ namespace CardRooms.DTS.LinkTargets
         [Serializable]
         public struct Data
         {
-            public DifficultyType health;
-            public DifficultyType damage;
-            public bool canDefend;
+            public RangeRaw<long> healthRange;
+            public RangeRaw<long> damageRange;
+            public bool canUseDefend;
         }
 
         public Sprite sprite;

@@ -18,7 +18,6 @@ MonoBehaviour:
       - itemId: Cards/Damage1
       - itemId: Cards/Damage10
       - itemId: Cards/Damage3
-      - itemId: Cards/Damage3
       - itemId: Cards/Damage6
       - itemId: Cards/Health2
       - itemId: Cards/Health4
@@ -29,156 +28,36 @@ MonoBehaviour:
       inventories:
       - inventoryType: 1
         allowedItems: 01
+        perSlotRestrictions: 
         itemPlacesCapacity: 30
       - inventoryType: 2
         allowedItems: 02
+        perSlotRestrictions: 
         itemPlacesCapacity: 2147483647
     player:
       defaultProfile:
         inventories:
         - inventoryType: 1
-          items:
-            items:
-            - linkToItem:
-                itemId: Cards/Damage1
-              amount: 4
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Damage3
-              amount: 6
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Damage6
-              amount: 4
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Damage10
-              amount: 2
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Health2
-              amount: 4
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Health4
-              amount: 3
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Health8
-              amount: 2
-              usagesCount: 0
-            - linkToItem:
-                itemId: Cards/Protection
-              amount: 5
-              usagesCount: 0
+          items: []
         - inventoryType: 2
-          items:
-            items:
-            - linkToItem:
-                itemId: Score/Energy
-              amount: 100
-              usagesCount: 0
-            - linkToItem:
-                itemId: Score/Health
-              amount: 200
-              usagesCount: 0
-    game:
-      generationEnemy:
-        healthParametrs:
-        - difficulty: 1
-          range:
-            min: 5
-            max: 10
-          worth: 0.5
-        - difficulty: 2
-          range:
-            min: 15
-            max: 25
-          worth: 2
-        - difficulty: 3
-          range:
-            min: 30
-            max: 50
-          worth: 3.5
-        - difficulty: 4
-          range:
-            min: 60
-            max: 90
-          worth: 5
-        damageParametrs:
-        - difficulty: 1
-          range:
-            min: 1
-            max: 2
-          worth: 0.5
-        - difficulty: 2
-          range:
-            min: 4
-            max: 6
-          worth: 2
-        - difficulty: 3
-          range:
-            min: 8
-            max: 12
-          worth: 3.5
-        - difficulty: 4
-          range:
-            min: 15
-            max: 20
-          worth: 5
-      generationRoom:
-      - enemyCounrRange:
-          min: 1
-          max: 2
-        worth: 1
-      - enemyCounrRange:
-          min: 1
-          max: 3
-        worth: 2
-      - enemyCounrRange:
-          min: 2
-          max: 3
-        worth: 3
-      - enemyCounrRange:
-          min: 2
-          max: 4
-        worth: 4
-      - enemyCounrRange:
-          min: 1
-          max: 3
-        worth: 5
-      - enemyCounrRange:
-          min: 1
-          max: 2
-        worth: 6
-      - enemyCounrRange:
-          min: 0
-          max: 0
-        worth: 7
-      - enemyCounrRange:
-          min: 1
-          max: 4
-        worth: 8
-      - enemyCounrRange:
-          min: 2
-          max: 4
-        worth: 9
-      - enemyCounrRange:
-          min: 1
-          max: 1
-        worth: 10
-      generationLevel:
-      - roomCounrRange:
-          min: 2
-          max: 3
-        worth: 15
-      allEnemies:
-      - enemyId: Goblin
-      - enemyId: Orc
-      - enemyId: Golem
-      - enemyId: Guardian
-      - enemyId: Centaur
-      - enemyId: Hydra
-      - enemyId: Ninja
-      - enemyId: Witch
-      - enemyId: Dragon
+          items: []
+        rooms:
+          roomStates: []
+      enemy:
+        enemyHealthUnitWeight: 0
+        enemyDamageUnitWeight: 0
+        enemyDefendWeight: 0
+        enemies:
+        - enemyId: Centaur
+        - enemyId: Dragon
+        - enemyId: Goblin
+        - enemyId: Golem
+        - enemyId: Guardian
+        - enemyId: Hydra
+        - enemyId: Ninja
+        - enemyId: Orc
+        - enemyId: Witch
+      roomGenerators: []
+    userInterface:
+      animationSpeed: 4
+      pathToWindowPrefabsFolder: Windows

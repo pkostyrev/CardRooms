@@ -10,9 +10,21 @@ namespace CardRooms.DTS.PlayerData
         public struct Inventory
         {
             public InventoryType inventoryType;
-            public ItemStates items;
+            public SlotItemState[] items;
+        }
+
+        [Serializable]
+        public struct Rooms
+        {
+            public RoomState[] roomStates;
+        }
+
+        [Serializable]
+        public struct RoomGeneration
+        {
         }
 
         public Inventory[] inventories;
+        public Rooms rooms;
     }
 }
