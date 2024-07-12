@@ -1,0 +1,16 @@
+{
+    "name": "CacheManager",
+    "rootNamespace": "CardRooms",
+    "references": [
+        "Interfaces"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
