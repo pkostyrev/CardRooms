@@ -1,0 +1,20 @@
+{
+    "name": "Windows",
+    "rootNamespace": "CardRooms",
+    "references": [
+        "Common",
+        "DTS",
+        "Root",
+        "Interfaces",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

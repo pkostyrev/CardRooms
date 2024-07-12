@@ -12,6 +12,7 @@ namespace CardRooms.DTS.GameSettings
         {
             public Items items;
             public Player player;
+            public UserInterface userInterface;
         }
 
         public Data data;
