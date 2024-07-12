@@ -1,14 +1,11 @@
 {
-    "name": "Editor",
+    "name": "Common",
     "rootNamespace": "CardRooms",
     "references": [
-        "DTS",
-        "ConfigManager",
-        "Interfaces"
+        "Unity.TextMeshPro",
+        "DTS"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

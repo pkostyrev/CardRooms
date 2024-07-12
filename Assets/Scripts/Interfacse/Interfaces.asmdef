@@ -1,14 +1,11 @@
 {
-    "name": "Editor",
+    "name": "Interfaces",
     "rootNamespace": "CardRooms",
     "references": [
         "DTS",
-        "ConfigManager",
-        "Interfaces"
+        "Common"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

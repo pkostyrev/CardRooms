@@ -15,5 +15,10 @@ namespace CardRooms.DTS.GameSettings
         }
 
         public Data data;
+
+        public string GenerateConfigFileName()
+        {
+            return $"CardRoomsConfig_{DateTime.Now}";
+        }
     }
 }
